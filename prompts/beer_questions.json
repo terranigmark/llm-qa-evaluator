@@ -1,0 +1,21 @@
+[
+  {
+    "id": "Q1",
+    "question": "¿Cuál es la diferencia entre una cerveza porter y una stout?",
+    "expected_keywords": ["cuerpo", "tostado", "cebada", "historia", "sabor"],
+    "expected_facts": [
+      "ambas son cervezas oscuras",
+      "las stout son más intensas en sabor y cuerpo",
+      "las porter fueron primero históricamente"
+    ]
+  },
+  {
+    "id": "Q2",
+    "question": "¿Qué significa que una cerveza sea 'imperial'?",
+    "expected_keywords": ["alto contenido de alcohol", "origen", "zar", "más lúpulo"],
+    "expected_facts": [
+      "se refiere a cervezas más fuertes",
+      "tiene su origen en cervezas para el zar ruso"
+    ]
+  }
+]
