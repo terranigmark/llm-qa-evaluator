@@ -20,6 +20,7 @@ llm-qa-evaluator/
 - **Framework de Testing**
   - Gestión de prompts con utilidades simples en Python.
   - Automatización de la validación de outputs mediante `pytest`.
+  - Evaluación de alucinaciones mediante el módulo `llmqa.hallucination`.
 - **Casos de Estudio de Ingeniería de Prompts**
   - Documentación de iteraciones y hallazgos.
 - **Documentación Profesional**
