@@ -14,16 +14,16 @@ llm-qa-evaluator/
 
 ## Contenido principal
 
-1. **Mini-proyectos de Evaluación**
-   - *Evaluación de Respuestas de un LLM en el dominio de cervezas artesanales.*
-   - *Comparativa de modelos (GPT vs Claude vs Cohere) usando el mismo set de preguntas.*
-2. **Framework de Testing**
-   - Gestión de prompts con utilidades simples en Python.
-   - Automatización de la validación de outputs mediante `pytest`.
-3. **Casos de Estudio de Ingeniería de Prompts**
-   - Documentación de iteraciones y hallazgos.
-4. **Documentación Profesional**
-   - Estrategias de pruebas, análisis de riesgos y checklist de QA manual.
+- **Mini-proyectos de Evaluación**
+  - *Evaluación de Respuestas de un LLM en el dominio de cervezas artesanales.*
+  - *Comparativa de modelos (GPT vs Claude vs Cohere) usando el mismo set de preguntas.*
+- **Framework de Testing**
+  - Gestión de prompts con utilidades simples en Python.
+  - Automatización de la validación de outputs mediante `pytest`.
+- **Casos de Estudio de Ingeniería de Prompts**
+  - Documentación de iteraciones y hallazgos.
+- **Documentación Profesional**
+  - Estrategias de pruebas, análisis de riesgos y checklist de QA manual.
 
 Para más detalles, revisa los archivos dentro de la carpeta `docs/`.
 
@@ -44,6 +44,14 @@ Para ejecutar los tests de ejemplo:
 
 ```bash
 pytest
+```
+
+## Ejecución de evaluación
+
+Para lanzar una evaluación rápida con el script incluido:
+
+```bash
+python evaluation/evaluate_responses.py
 ```
 
 ## Licencia
