@@ -22,6 +22,7 @@ llm-qa-evaluator/
   - Automatización de la validación de outputs mediante `pytest`.
   - Evaluación de alucinaciones mediante el módulo `llmqa.hallucination`.
   - Verificación de consistencia usando `llmqa.consistency`.
+  - Comparación de modelos usando `llmqa.comparator`.
 - **Casos de Estudio de Ingeniería de Prompts**
   - Documentación de iteraciones y hallazgos.
 - **Documentación Profesional**
